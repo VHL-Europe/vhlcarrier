@@ -1,0 +1,22 @@
+{
+    "name": "vhl-europe/vhlcarrier",
+    "description": "vhlcarrier is a PHP library for VHL Europe's Carrier API",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VHLEurope\\VHLCarrier\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VHL Europe",
+            "email": "it@vhleurope.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
