@@ -16,7 +16,13 @@ composer require vhl-europe/vhlcarrier
 
 ## Usage
 
-The shipping connector class provides the following methods:
+First you need to load connector using: 
+```php
+use VHLEurope\VHLCarrier\Client;
+$apikey = "your api key";
+$client = new VHLEurope\VHLCarrier\Client($apikey);
+```
+Afterwars you can use one of the following methods:
 
 ### 1. `getAllowedCarriers()`
 
