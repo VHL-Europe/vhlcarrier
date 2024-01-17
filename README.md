@@ -32,7 +32,7 @@ This method returns a list of allowed carriers for shipping. See example in exam
 
 This method creates shipping order / awb / package and returns tracking number. See example in examples/create_order.php
 
-### 2. `getLabel()`
+### 3. `getLabel()`
 
 This method returns shipping label for package in pdf format. See example in examples/get_label.php
 
