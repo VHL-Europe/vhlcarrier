@@ -22,6 +22,13 @@ class Client {
         return $this->callApi("get-label/".$carrierID, $data, 'POST');
     }
 
+    public function getTracking($trackingNumber, $carrierID) {
+        $data = [
+            "trackingNumber" => $trackingNumber
+        ];
+        return $this->callApi("get-tracking/".$carrierID, $data, 'POST');
+    }
+
     private function callApi($endpoint, $data = [], $method = 'GET') {
         // Initialize cURL session
         $ch = curl_init();
