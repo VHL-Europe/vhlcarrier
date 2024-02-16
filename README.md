@@ -36,3 +36,7 @@ This method creates shipping order / awb / package and returns tracking number. 
 
 This method returns shipping label for package in pdf format. See example in examples/get_label.php
 
+### 4. `getTracking()`
+
+This method returns tracking history for package. See example in examples/get_tracking.php
+
