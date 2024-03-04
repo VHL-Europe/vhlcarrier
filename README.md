@@ -40,3 +40,6 @@ This method returns shipping label for package in pdf format. See example in exa
 
 This method returns tracking history for package. See example in examples/get_tracking.php
 
+### 4. `getDeliveryIDs()`
+
+This method returns pickup location for selected carrier. See example in examples/get_delivery_ids.php

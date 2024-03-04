@@ -14,6 +14,10 @@ class Client {
         return json_decode($this->callApi("get-allowed-carriers"), true);
     }
 
+    public function getAllowedDeliveryIDs($id) { 
+        return json_decode($this->callApi("get-delivery-ids/".$id), true);
+    }
+
     public function createOrder($data = [], $carrierID) {
         return json_decode($this->callApi("create-order/".$carrierID, $data, 'POST'), true);
     }
